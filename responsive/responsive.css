@@ -1,0 +1,35 @@
+body{
+    background: beige;
+    font-family:helvetica;
+}
+
+h1{
+    font-size:2.5em;
+    color:blue;
+    text-align: center;
+}
+
+img{
+    width:50%;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+        font-family:"monospace";
+    }
+    h1{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background: url(screenshot.png);
+        color: aliceblue;
+    }
+    
+    img{
+        display:none;
+    }
+}
